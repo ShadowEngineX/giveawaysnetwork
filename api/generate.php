@@ -1,5 +1,5 @@
 <?php
-	$type = $_GET['type'];
+	$type = $_GET['/api/script'];
 
 	if (empty($type)) {
 		die('Please include all required url parameters.');
