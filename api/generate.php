@@ -1,5 +1,5 @@
 <?php
-	$type = $_GET['/api/script'];
+	$type = $_GET['https://giveawaysnetwork.github.io/website/genrator.html'];
 
 	if (empty($type)) {
 		die('Please include all required url parameters.');
